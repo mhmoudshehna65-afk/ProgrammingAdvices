@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Source Files\01-ProgrammingFoundations-Level1">
+      <UniqueIdentifier>{089262ed-773f-40e4-8d6f-b987c13f2e69}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\02-Algorithms&amp;ProblemSolving-Level1">
+      <UniqueIdentifier>{ef2a43c5-4284-44a3-b6ab-0bf5da314e74}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\03-IntroductionToProgrammingUsingC++-Level1">
+      <UniqueIdentifier>{3a16a1bf-96ed-4e8c-9e01-d96a2206a240}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\04-Algorithms&amp;ProblemSolving-Level1">
+      <UniqueIdentifier>{91d3ded7-c75a-45a4-bfb3-1a9f40fc55d5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\05-Algorithms&amp;ProblemSolving-Level2">
+      <UniqueIdentifier>{9ddd7ec6-cccf-4201-b2e4-a01e465fd04d}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Problem1.cpp">
+      <Filter>Source Files\01-ProgrammingFoundations-Level1</Filter>
+    </ClCompile>
+    <ClCompile Include="ProgrammingAdvices.cpp">
+      <Filter>Source Files\01-ProgrammingFoundations-Level1</Filter>
+    </ClCompile>
+    <ClCompile Include="Problem21.cpp">
+      <Filter>Source Files\05-Algorithms&amp;ProblemSolving-Level2</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
