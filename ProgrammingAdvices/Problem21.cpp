@@ -41,7 +41,7 @@ void PrintAllElementsArr(int arr[100],int Length)
 	cout << "Orginal Array:\n";
 	for (int i = 0; i < Length; i++)
 		cout << arr[i] << " ";
-	cout << endl;
+	cout << endl ;
 
 
 }
