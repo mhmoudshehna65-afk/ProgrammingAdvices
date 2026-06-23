@@ -36,7 +36,10 @@
     <ClCompile Include="ProgrammingAdvices.cpp">
       <Filter>Source Files\01-ProgrammingFoundations-Level1</Filter>
     </ClCompile>
-    <ClCompile Include="Problem21.cpp">
+    <ClCompile Include="Problem22.cpp">
+      <Filter>Source Files\05-Algorithms&amp;ProblemSolving-Level2</Filter>
+    </ClCompile>
+    <ClCompile Include="Problem23.cpp">
       <Filter>Source Files\05-Algorithms&amp;ProblemSolving-Level2</Filter>
     </ClCompile>
   </ItemGroup>

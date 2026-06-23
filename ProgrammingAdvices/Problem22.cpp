@@ -9,7 +9,7 @@ const int SizeArr = 100;
 int ReadPositiveNum(string);
 void ReadArray(int[100],int);
 int CheckFreqElement(int[100], int CheckFreq,int Length);
-void PrintAllElementsArr(int[100], int);
+void PrintElementsArr(int[100], int) ;
 
 
 void ReadArray(int arr[100],int Length)
@@ -35,7 +35,7 @@ int CheckFreqElement(int arr[100],int Length,int CheckFreq)
 
 
 }
-void PrintAllElementsArr(int arr[100],int Length)
+void PrintElementsArr(int arr[100],int Length)
 {
 
 	cout << "Orginal Array:\n";
@@ -72,7 +72,7 @@ int main()
 	int arr[100];
 	int Length = ReadPositiveNum("Enter num of array elements: ");
 	 ReadArray(arr,Length);
-	PrintAllElementsArr(arr,Length);
+	PrintElementsArr(arr,Length);
 	int CheckNum = ReadPositiveNum("Enter Num you want to check: ");
 	cout << CheckNum << "is repeated " << CheckFreqElement(arr,Length,CheckNum) << " time/s\n";
 
